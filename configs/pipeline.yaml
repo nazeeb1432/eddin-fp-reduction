@@ -1,0 +1,18 @@
+# Example config: window sizes, rule thresholds, hyperparam ranges.
+# Placeholder values only -- not yet consumed by any pipeline stage.
+
+windows:
+  short_days: 7
+  medium_days: 30
+  long_days: 90
+
+rules:
+  structuring_threshold_usd: 10000
+  rapid_movement_hours: 24
+  high_velocity_txn_count: 10
+
+hyperparams:
+  lightgbm:
+    num_leaves: [16, 32, 64, 128]
+    learning_rate: [0.01, 0.3]
+    n_estimators: [100, 1000]

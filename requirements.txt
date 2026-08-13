@@ -1,0 +1,10 @@
+pandas
+numpy
+polars
+lightgbm
+scikit-learn
+networkx
+matplotlib
+optuna
+pyyaml
+pytest

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+notebooks/*.png
+models/artifacts/
+data/
+.pytest_cache/
